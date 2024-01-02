@@ -1138,30 +1138,6 @@ return view.extend({
 			_("If you like this software, please buy me a cup of coffee."));
 		s.anonymous = true;
 
-		o = s.option(form.Button, "web");
-		o.title = _("SmartDNS official website");
-		o.inputtitle = _("open website");
-		o.inputstyle = "apply";
-		o.onclick = function () {
-			window.open("https://pymumu.github.io/smartdns", '_blank');
-		};
-
-		o = s.option(form.Button, "report");
-		o.title = _("Report bugs");
-		o.inputtitle = _("Report bugs");
-		o.inputstyle = "apply";
-		o.onclick = function () {
-			window.open("https://github.com/pymumu/smartdns/issues", '_blank');
-		};
-
-		o = s.option(form.Button, "Donate");
-		o.title = _("Donate to smartdns");
-		o.inputtitle = _("Donate");
-		o.inputstyle = "apply";
-		o.onclick = function () {
-			window.open("https://pymumu.github.io/smartdns/#donate", '_blank');
-		};
-
 		o = s.option(form.DummyValue, "_restart", _("Restart Service"));
 		o.renderWidget = function () {
 			return E('button', {
