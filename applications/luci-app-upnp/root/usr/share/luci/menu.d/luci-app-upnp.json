@@ -1,6 +1,6 @@
 {
 	"admin/network/upnp": {
-		"title": "UPnP",
+		"title": "MiniUPnP",
 		"order": 12,
 		"action": {
 			"type": "view",
