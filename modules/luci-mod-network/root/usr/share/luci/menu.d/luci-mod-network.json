@@ -36,7 +36,7 @@
 
 	"admin/network/network": {
 		"title": "Interfaces",
-		"order": 10,
+		"order": 1,
 		"action": {
 			"type": "view",
 			"path": "network/interfaces"
@@ -48,7 +48,7 @@
 
 	"admin/network/routes": {
 		"title": "Routing",
-		"order": 30,
+		"order": 2,
 		"action": {
 			"type": "view",
 			"path": "network/routes"
@@ -60,7 +60,7 @@
 
 	"admin/network/dhcp": {
 		"title": "DHCP and DNS",
-		"order": 40,
+		"order": 3,
 		"action": {
 			"type": "view",
 			"path": "network/dhcp"
@@ -74,7 +74,7 @@
 
 	"admin/network/diagnostics": {
 		"title": "Diagnostics",
-		"order": 50,
+		"order": 5,
 		"action": {
 			"type": "view",
 			"path": "network/diagnostics"
