@@ -1,6 +1,7 @@
 {
 	"admin/services/udpxy": {
 		"title": "udpxy",
+		"order":6,
 		"action": {
 			"type": "view",
 			"path": "udpxy"
