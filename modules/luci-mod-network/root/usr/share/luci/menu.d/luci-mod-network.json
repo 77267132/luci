@@ -74,7 +74,7 @@
 
 	"admin/network/diagnostics": {
 		"title": "Diagnostics",
-		"order": 5,
+		"order": 6,
 		"action": {
 			"type": "view",
 			"path": "network/diagnostics"
