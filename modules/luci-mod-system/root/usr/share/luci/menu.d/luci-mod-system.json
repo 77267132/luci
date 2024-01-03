@@ -126,7 +126,7 @@
 
 	"admin/system/flash": {
 		"title": "Backup / Flash Firmware",
-		"order": 70,
+		"order": 11,
 		"action": {
 			"type": "view",
 			"path": "system/flash"
@@ -138,7 +138,7 @@
 
 	"admin/system/reboot": {
 		"title": "Reboot",
-		"order": 90,
+		"order": 12,
 		"action": {
 			"type": "view",
 			"path": "system/reboot"
