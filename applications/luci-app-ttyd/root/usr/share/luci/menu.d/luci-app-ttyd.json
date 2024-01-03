@@ -1,7 +1,7 @@
 {
 	"admin/system/ttyd": {
 		"title": "Terminal",
-		"order": 2,
+		"order": 3,
 		"action": {
 			"type": "firstchild"
 		},
