@@ -1,7 +1,7 @@
 {
 	"admin/network/nlbw": {
 		"title": "Bandwidth Monitor",
-		"order": 80,
+		"order": 8,
 		"action": {
 			"type": "alias",
 			"path": "admin/network/nlbw/display"
