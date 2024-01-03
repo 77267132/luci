@@ -1,7 +1,7 @@
 {
 	"admin/services/aria2": {
 		"title": "Aria2",
-		"order": 30,
+		"order": 5,
 		"action": {
 			"type": "firstchild"
 		},
