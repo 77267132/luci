@@ -1,6 +1,7 @@
 {
 	"admin/network/upnp": {
 		"title": "UPnP",
+		"order"= 12,
 		"action": {
 			"type": "view",
 			"path": "upnp/upnp"
