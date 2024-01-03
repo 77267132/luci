@@ -1,7 +1,7 @@
 {
 	"admin/network/firewall": {
 		"title": "Firewall",
-		"order": 60,
+		"order": 4,
 		"action": {
 			"type": "alias",
 			"path": "admin/network/firewall/zones"
