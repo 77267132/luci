@@ -49,15 +49,6 @@
 			"recurse": true
 		}
 	},
-
-       "admin/nas": {
-		"title": "NAS",
-		"order": 60,
-		"action": {
-			"type": "firstchild",
-			"recurse": true
-		}
-	},
 	
 	"admin/vpn": {
 		"title": "VPN",
