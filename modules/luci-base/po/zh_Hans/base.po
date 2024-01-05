@@ -11561,6 +11561,7 @@ msgstr "{example_nx} 返回 {nxdomain}。"
 msgid "« Back"
 msgstr "« 后退"
 
+#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:54
 msgid "NAS"
 msgstr "存储"
 
