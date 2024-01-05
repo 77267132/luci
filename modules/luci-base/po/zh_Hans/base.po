@@ -11561,6 +11561,9 @@ msgstr "{example_nx} 返回 {nxdomain}。"
 msgid "« Back"
 msgstr "« 后退"
 
+msgid "NAS"
+msgstr "存储"
+
 #~ msgid "Bind dynamically to interfaces rather than wildcard address."
 #~ msgstr "动态绑定到接口而不是通配符地址。"
 
