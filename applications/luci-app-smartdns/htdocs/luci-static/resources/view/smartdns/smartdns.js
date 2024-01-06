@@ -1134,8 +1134,7 @@ return view.extend({
 		////////////////
 		// Support
 		////////////////
-		s = m.section(form.TypedSection, "smartdns", _("Technical Support"),
-			_("If you like this software, please buy me a cup of coffee."));
+		s = m.section(form.TypedSection, "smartdns", _("Restart Service"));
 		s.anonymous = true;
 
 		o = s.option(form.DummyValue, "_restart", _("Restart Service"));
