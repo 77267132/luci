@@ -61,9 +61,9 @@ function smartdnsRenderStatus(res) {
 	var dnsmasqServer = uci.get_first('dhcp', 'dnsmasq', 'server');
 
 	if (isRunning) {
-		renderHTML += "<p style=\"color:green;font-weight:bold\">SmartDNS - " + _("RUNNING") + "</p>";
+		renderHTML += "<span style=\"color:green;font-weight:bold;display:block;height:30px;line-height:30px;padding:0 0 0 1rem;\">SmartDNS - " + _("RUNNING") + "</span>";
 	} else {
-		renderHTML += "<p style=\"color:red;font-weight:bold\">SmartDNS - " + _("NOT RUNNING") + "</p>";
+		renderHTML += "<span style=\"color:red;font-weight:bold;display:block;height:30px;line-height:30px;padding:0 0 0 1rem;\">SmartDNS - " + _("NOT RUNNING") + "</span>";
 		return renderHTML;
 	}
 
