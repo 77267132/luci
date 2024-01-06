@@ -328,7 +328,7 @@ return view.extend({
 			]),
 
 			E('h2', {}, [ _('Firewall Status') ]),
-			E('div', { 'class': 'right', 'style': 'margin-bottom:-1.5em' }, [
+			E('div', { 'class': 'right', 'style': 'margin:1em' }, [
 				E('button', {
 					'class': 'cbi-button',
 					'data-hide-empty': false,
