@@ -30,7 +30,7 @@ CBIAria2Status = form.DummyValue.extend({
 		poll.add(function() {
 			return Promise.all([
 				callServiceList('aria2', extra)
-				.then(function(res) {
+				。then(function(res) {
 					return E('p', {}, E('em', {}, res.running
 						? _('The Aria2 service is running.')
 						: _('The Aria2 service is not running.'))
@@ -186,9 +186,7 @@ return view.extend({
 		var m, s, o;
 
 		m = new form.Map('aria2', '%s - %s'.format(_('Aria2'), _('Settings')), '<p>%s</p><p>%s</p>'.format(
-			_('Aria2 is a lightweight multi-protocol &amp; multi-source, cross platform download utility.'),
-			_('For more information, please visit: %s.')
-			.format('<a href="https://aria2.github.io" target="_blank">https://aria2.github.io</a>')));
+			_('Aria2 is a lightweight multi-protocol &amp; multi-source, cross platform download utility.')));
 
 		s = m.section(form.TypedSection);
 		s.title = '%s - %s'.format(_('Aria2'), _('Running Status'));
