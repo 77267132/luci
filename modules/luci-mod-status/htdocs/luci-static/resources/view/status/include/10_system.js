@@ -34,7 +34,7 @@ return baseclass.extend({
 		    systeminfo  = data[1],
 		    luciversion = data[2];
 
-		luciversion = luciversion.branch + ' ' + luciversion.revision;
+		luciversion = luciversion.branch;
 
 		var datestr = null;
 
