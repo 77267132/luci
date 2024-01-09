@@ -1138,7 +1138,7 @@ return view.extend({
 				E('div', {}, [
 					E('label', {}, _('Filter') + ':'),
 					E('span', { 'class': 'control-group' }, [
-						E('input', { 'type': 'text', 'name': 'filter', 'placeholder': _('Type to filter…'), 'value': query, 'input': handleInput }),
+						E('input', { 'type': 'text', 'name': 'filter', 'placeholder': _('Type to filter…'),'onfocus':"this.placeholder=\'\'", 'onblur':"this.placeholder=\'Type to filter…\'", 'value': query, 'input': handleInput }),
 						E('button', { 'class': 'btn cbi-button', 'click': handleReset }, [ _('Clear') ])
 					])
 				]),
@@ -1146,7 +1146,7 @@ return view.extend({
 				E('div', {}, [
 					E('label', {}, _('Download and install package') + ':'),
 					E('span', { 'class': 'control-group' }, [
-						E('input', { 'type': 'text', 'name': 'install', 'placeholder': _('Package name or URL…'), 'keydown': function(ev) { if (ev.keyCode === 13) handleManualInstall(ev) }, 'disabled': isReadonlyView }),
+						E('input', { 'type': 'text', 'name': 'install', 'placeholder': _('Package name or URL…'), 'onfocus':"this.placeholder=\'\'", 'onblur':"this.placeholder=\'Package name or URL…\'",'keydown': function(ev) { if (ev.keyCode === 13) handleManualInstall(ev) }, 'disabled': isReadonlyView }),
 						E('button', { 'class': 'btn cbi-button cbi-button-action', 'click': handleManualInstall, 'disabled': isReadonlyView }, [ _('OK') ])
 					])
 				]),
