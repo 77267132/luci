@@ -32,8 +32,8 @@ CBIAria2Status = form.DummyValue.extend({
 				callServiceList('aria2', extra)
 				。then(function(res) {
 					return E('p', {}, E('em', {}, res.running
-						? _('<font color="green">') + ('Aria2 服务正在运行。') + ('</font>')
-						: _('<font color="red">') + ('Aria2 服务未运行。') + ('</font>'))
+						? _('<font color="green" size="1.8rem">') + ('Aria2 服务正在运行。') + ('</font>')
+						: _('<font color="red" size="1.8rem">') + ('Aria2 服务未运行。') + ('</font>'))
 					);
 				}),
 				getWebFrontInstalled()
